@@ -16,10 +16,9 @@
   const route = useRoute();
   const userId = route.params.id;
   
-  
   const activities = ref([
-    'Посетил ',
-    'Участвовал в ',
+    'Посетил мероприятие 1',
+    'Участвовал в мероприятии 2',
   ]);
   </script>
   

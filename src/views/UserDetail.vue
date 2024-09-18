@@ -1,10 +1,10 @@
 <template>
     <div>
-      <h1>Профиль пользователя {{ id }}</h1>
+      <h1>Профиль пользователя {{ $route.params.id }}</h1>
+      <router-view></router-view>
     </div>
   </template>
   
   <script setup>
-  const props = defineProps(['id']);
   </script>
   
