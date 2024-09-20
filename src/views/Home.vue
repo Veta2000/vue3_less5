@@ -32,7 +32,7 @@
     const role = localStorage.getItem('role');
     if (role === 'user') {
       const username = localStorage.getItem('username');
-      router.push(`/user/${username}`);
+      router.push(`/user/${username}/info`);
     } else {
       router.push('/404');
     }
